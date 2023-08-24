@@ -1,3 +1,4 @@
+# Tuples and lists comparison runtime
 import time
 
 a = 1
@@ -35,5 +36,10 @@ run_time2 = e2-s2
 print("runtime list", run_time1)
 print("runtime tuple", run_time2)
 
+list = []
 
+for i in range(1000):
+    list.append(i)
+
+print(list)
 

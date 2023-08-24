@@ -1,3 +1,5 @@
+# Tuple methods
+
 tuple1 = ("a", "b", "c", "d", "e", "a", "b")
 e = tuple1.count("a")
 d = tuple1.index("b")
